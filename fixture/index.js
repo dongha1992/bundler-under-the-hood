@@ -1,7 +1,8 @@
 import add3 from "./add3.js";
 import add5 from "./add5.js";
 
-export const MAGIC_NUMBER = 2;
+export const NUMBER_TO_ADD = 2;
+const n = 1;
 
-console.log("add3(2): ", add3(MAGIC_NUMBER));
-console.log("add5(5)", add5(MAGIC_NUMBER));
+console.log(`add3(n) + NUMBER_TO_ADD :`, add3(n));
+console.log(`add5(n) + NUMBER_TO_ADD :`, add5(n));
