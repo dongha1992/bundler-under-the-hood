@@ -7,7 +7,12 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.15.0",
+   "scripts": {
+    "build": "node src/index.js build",
+    "dev": "node src/index.js dev"
+  },
   "dependencies": {
-    "@babel/core": "^7.28.5"
+    "@babel/core": "^7.28.5",
+    "express": "^5.2.1"
   }
 }
